@@ -1,6 +1,13 @@
+import java.util.Scanner;
+
 public class MyClass {
 
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        Scanner input = new Scanner(System.in);
+                int number = input.nextInt();
+                System.out.println("You entered " + number);
+                input.close();
+
+
     }
 }
